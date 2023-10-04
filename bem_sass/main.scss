@@ -1,0 +1,18 @@
+.form{ /*block*/
+    margin: 40px;
+
+    &__control{  /*element*/
+    margin-bottom: 16px;
+    font-family: sans-serif;
+    }
+
+    &__submit{ /*element*/
+    cursor:pointer;
+
+
+        &--sending{ /*modifier*/
+    cursor:wait;
+        }
+    }
+
+}
